@@ -625,7 +625,13 @@ progress {
   max-width: 100%;
   height: auto;
 }
+.img-thumbnail-still{
 
+}
+.img-thumbnail-gif{
+
+  
+}
 .figure {
   display: inline-block;
 }
@@ -11471,10 +11477,15 @@ header.masthead h1, header.masthead .h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: rgba(244, 98, 58, 0.6);
   transition: opacity 0.25s ease;
   text-align: center;
 }
+
+#portfolio .img-thumbnail-gif{
+  display: none;
+}
+
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.85rem;
@@ -11486,4 +11497,12 @@ header.masthead h1, header.masthead .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+#portfolio .portfolio-box:hover .img-thumbnail-gif{
+  display: block;
+}
+
+#portfolio .portfolio-box:hover .img-thumbnail-still{
+  display: none;
 }
