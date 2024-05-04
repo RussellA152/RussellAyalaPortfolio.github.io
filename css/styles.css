@@ -11512,5 +11512,5 @@ header.masthead h1, header.masthead .h1 {
 }
 
 #portfolio .portfolio-box:hover .img-thumbnail-still{
-  display: none;
+  display: none; 
 }
