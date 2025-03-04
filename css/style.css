@@ -3,33 +3,33 @@ html{
 }
 
 body {
-    background-color: #0b1956;
+    background-color: #6a7d4f;
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
 h1 {
-    color: #00011e;
+    color: #162a2a;
     font-family: 'Quicksand';
     font-weight: bolder;
     font-size: clamp(48px, 9vw, 104px);
 }
 
 h2 {
-    color: #00011e;
+    color: #162a2a;
     font-family: 'Quicksand';
     font-weight: bold;
     font-size: clamp(30px, 5vw, 42px);
 }
 h3 {
-    color: #00011e;
+    color: #162a2a;
     font-family: 'Quicksand';
     font-size: clamp(22px, 3vw, 28px);
 }
 
 p {
-    color: #00011e;
+    color: #162a2a;
     font-family: 'Inter';
     font-size: clamp(18px, 2vw, 22px);
     font-weight: normal;
@@ -38,8 +38,8 @@ p {
 nav {
     height: 54px;
     width: 100%;
-    background: rgb(70,110,195);
-    background: linear-gradient(90deg, rgba(70,110,195,1) 0%, rgba(11,25,86,1) 100%);
+    background: rgb(177,192,149);
+    background: linear-gradient(90deg, rgba(177,192,149,1) 0%, rgba(106,125,79,1) 100%);
     padding-top: 0%;
     position: fixed;
     top: 0;
@@ -62,19 +62,19 @@ nav a{
 }
 
 nav a:link, nav a:visited{
-    color: #dbd6fa;
+    color: #162a2a;
     text-decoration: none;
 }
 
 nav a:hover, nav a:active{
-    color: #c5c1e1;
+    color: #5c6a6a;
 }
 
 
 /* Section: Landing Page */
 .landing {
     align-items: center;
-    background-color: #f8f3ec;
+    background-color: #f3f0e8;
     
 }
 .intro{
@@ -87,7 +87,7 @@ nav a:hover, nav a:active{
     height: auto;
     border-top: 16px;
     border-bottom: 16px;
-    background-color: #f8f3ec;
+    background-color: #f3f0e8;
     padding: 40px 0px 40px 0px;
 }
 
@@ -156,7 +156,7 @@ nav a:hover, nav a:active{
 }
 
 .project_card:hover p{
-    color: #466ec3;
+    color: #535f51;
 }
 
 p.keywords{
@@ -169,27 +169,31 @@ p.keywords{
 
 
 /* Section: About Me */
+.about p{
+    color:#f8f3ec ;
+    
+}
 .about{
     height: auto;
     border-bottom-right-radius: 5vw;
     border-bottom-left-radius: 5vw;
-    background-color: #f8f3ec;
+    background-color: #f3f0e8;
     padding: 90px 0px 90px 0px;
 }
 
 .about_text{
-    background-color: #dbd6fa;
+    background-color: #756c65;
     border-radius: 12px;
     align-self: flex-start;
     width: 50%;
     max-width: 635px;
     min-width: 200px;
     padding: clamp(20px, 5vw, 47px);
-    box-shadow: 0px 4px 4px #c5c1e1;
+    box-shadow: 0px 4px 4px #c1c9cb;
 }
 
 .about_me_pic{
-    background-color: #dbd6fa;
+    background-color: #756c65;
     border-radius: 12px;
     align-self: flex-end;
     width: 50%;
@@ -197,7 +201,7 @@ p.keywords{
     min-width: 200px;
     height: auto;
     padding: clamp(20px, 5vw, 47px);
-    box-shadow: 0px 4px 4px #c5c1e1;
+    box-shadow: 0px 4px 4px #c1c9cb;
 }
 
 .about_row{
@@ -279,14 +283,14 @@ footer a:link, footer a:visited{
 }
 
 footer a:hover, footer a:active{
-    color: #466ec3;
+    color: #bbccae;
 }
 
 .send_email_button {
     border: none;
     border-radius: 29px;
     background-color: #dbd6fa;
-    color:#00011e;
+    color:#162a2a;
     font-size: 22px;
     padding: 15px 16px;
     text-align: center;
@@ -296,7 +300,7 @@ footer a:hover, footer a:active{
 }
 
 .send_email_button:hover{
-    background-color: #466ec3;
+    background-color: #bbccae;
     color:#dbd6fa;
 
 }
