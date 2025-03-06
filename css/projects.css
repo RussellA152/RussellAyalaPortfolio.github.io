@@ -23,7 +23,7 @@
 }
 /* Project Images */
 .project_images{
-    width: 65%;
+    width: 45%;
     display: grid;
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr; 
@@ -65,7 +65,7 @@
 
 /* Project Description */
 .project_description{
-    width: 35%;
+    width: 55%;
     padding: 0px 50px 0px 50px;
     position: sticky;
     top: 80px;
